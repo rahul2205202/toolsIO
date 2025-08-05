@@ -6,9 +6,6 @@ export default function Navigation() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
     const navLinks = [
-    { href: '#', text: 'Converter' },
-    { href: '#', text: 'How It Works' },
-    { href: '#', text: 'Contact' },
     { href: '/image-to-pdf', text: 'Image to PDF' },
     { href: '/pdf-to-image', text: 'PDF to Image'},
     { href: '/image-generator', text: 'AI Image Generation'}
